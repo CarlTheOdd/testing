@@ -1,3 +1,0 @@
-function alertVar(){
-  alert(word);
-}
