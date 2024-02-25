@@ -9,7 +9,7 @@ function buyUpg(upg){
 }
 
 function incrementQuark(){
-    player.quarks++;
+    player.quarks += player.qpc;
 }
 
 function loop(){
