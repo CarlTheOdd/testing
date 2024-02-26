@@ -7,9 +7,9 @@ function E(x){
 }
 
 var player = {
-    quarks: E(0),
+    quarks: 0,
 
     gain: {
-        qpc: E(1)
+        qpc: 1
     }
 }
