@@ -19,6 +19,10 @@ body {
     padding: 10px;
 }
 
+#tabs .selected {
+    border-bottom: 10px solid white;
+}
+
 #main {
     display: flex;
 }
