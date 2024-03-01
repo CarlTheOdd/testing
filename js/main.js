@@ -1,7 +1,7 @@
-var currTab = "atomic";
+loadGame();
 
 function incrementQuark(){
-    player.quarks += player.gain.qpc;
+    player.quarks = player.quarks.add(player.gain.qpc);
 }
 
 function loop(){
@@ -9,9 +9,7 @@ function loop(){
 }
 
 function updateDisplay(){
-    upd("quarks", player.quarks);
-
-    document.getElementByID(currTab).classList.add("selected");
+    upd("quarks", notate(player.quarks));
 }
 
 setInterval(loop, 50);
