@@ -3,6 +3,7 @@ body {
     display: grid;
     place-items: center;
     color: white;
+    user-select: none;
 }
 
 #tabs {
@@ -11,6 +12,7 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 35px;
+    margin-bottom: 25px;
 }
 
 #tabs * {
