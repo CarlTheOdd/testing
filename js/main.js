@@ -1,5 +1,3 @@
-loadGame();
-
 function incrementQuark(){
     player.quarks = player.quarks.add(player.gain.qpc);
 }
