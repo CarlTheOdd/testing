@@ -25,6 +25,14 @@ var player = {
     gain: {
         qpc: E(1)
     }
+
+    accel: {
+        cost: E(10),
+        lvl: E(0),
+        unl() {
+            return player.quarks.gte(player.accel.cost);
+        }
+    }
 }
 
 function save(){
